@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rohit/OneDrive/Desktop/PHISINGDATA/mlruns/0/edf591a88fe843d1b2df7b85849af981/artifacts
+end_time: 1757351356518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: edf591a88fe843d1b2df7b85849af981
+run_name: learned-goose-720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757351353022
+status: 3
+tags: []
+user_id: MrNeverBefore

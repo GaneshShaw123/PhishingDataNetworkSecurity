@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/rohit/OneDrive/Desktop/PHISINGDATA/mlruns/0/models/m-417690e0664649b4940e454c18a9efdb/artifacts
+creation_timestamp: 1757351348831
+experiment_id: '0'
+last_updated_timestamp: 1757351352920
+model_id: m-417690e0664649b4940e454c18a9efdb
+model_type: null
+name: model
+source_run_id: 6dd7e1ecf8d341d4b9f2c64d9ded8b8d
+status: 2
+status_message: null
