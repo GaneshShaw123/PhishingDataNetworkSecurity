@@ -1,8 +1,20 @@
 FROM python:3.10-slim-buster
+
 WORKDIR /app
 COPY . /app
 
-RUN apt update -y && apt install awscli -y
+# Install dependencies needed for awscli + clean cache
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        python3-pip \
+        curl \
+        unzip \
+        ca-certificates && \
+    pip install --upgrade pip && \
+    pip install awscli && \
+    rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && pip install -r requirements.txt
+# Install Python dependencies
+RUN pip install -r requirements.txt
+
 CMD ["python3", "app.py"]
